@@ -13,16 +13,27 @@
     UnMangles
   </h1>
   <nav class = 'topTabs'>
-    <a href = 'index.html'>Home</a>
-    <a href = 'degree_finder.html'>Degree Finder</a>
-    <a href = '#'>Profile Builder</a>
-    <a href = 'register.html'>Register/Login</a>
+    <a class = 'tab' href = 'index.html'>Home</a>
+    <a class = 'tab' href = 'degree_finder.html'>Degree Finder</a>
+    <a class = 'tab' href = '#'>Profile Builder</a>
+    <a class = 'tab' href = 'register.html'>Register/Login</a>
   </nav>
 
   <body>
-    
-    <h1>Courses</h1>
+
+    <h1>Updated Courses</h1>
     <a href = 'course.html'>COMP1511</a>
+
+    <button onclick = 'clickDrop()' class = 'toggled'>LVL 1 MATH</button>
+    <div id='drop' class='dropdown-content'>
+        <a href = '#'>MATH1131</a>
+        <a href = '#'>MATH1141</a>
+        <a href = '#'>MATH1231</a>
+        <a href = '#'>MATH1241</a>
+        <a href = '#'>MATH1081</a>
+    </div>
+    <script src = 'toggle.js'></script>
+    
 
   </body>
 
